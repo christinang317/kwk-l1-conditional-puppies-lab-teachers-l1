@@ -20,7 +20,7 @@ def less_puppies(num)
   elsif num = 3
     "Slow down! No more puppies."
   else
-    "Get back to your animal goals!"
+    "Slow down! No more puppies."
   end
 end
 
@@ -43,3 +43,11 @@ end
 # 4. Rachel has decided to track both her puppy allowance AND her cat allowance. Write a method called new_animal accumulation that takes
 #in two arguments - number of puppies and number of cats. As long as she gets zero puppies OR zero cats this method should return "Good job!".
 # If she gets 1 or more puppies AND 1 or more cats it should tell her she should really slow back down!
+
+def new_animal(dogs, cats)
+  if dogs == 0 || cats == 0
+    "Good job, Rachel!"
+  elsif dogs >= 1 || cats >= 1
+    "Get back to your animal goals!"
+  end
+end 
