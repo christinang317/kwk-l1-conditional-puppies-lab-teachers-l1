@@ -44,7 +44,7 @@ end
 #in two arguments - number of puppies and number of cats. As long as she gets zero puppies OR zero cats this method should return "Good job!".
 # If she gets 1 or more puppies AND 1 or more cats it should tell her she should really slow back down!
 
-def both_animal(dogs, cats)
+def both_animals(dogs, cats)
   if dogs == 0 || cats == 0
     "Good job, Rachel!"
   elsif dogs >= 1 || cats >= 1
