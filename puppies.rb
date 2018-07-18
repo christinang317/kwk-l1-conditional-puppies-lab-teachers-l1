@@ -20,7 +20,7 @@ def less_puppies(num)
   elsif num = 3
     "Slow down! No more puppies."
   else
-    "Slow down! No more puppies."
+    "Get back to your animal goals!"
   end
 end
 
@@ -50,4 +50,4 @@ def new_animal(dogs, cats)
   elsif dogs >= 1 || cats >= 1
     "Get back to your animal goals!"
   end
-end 
+end
